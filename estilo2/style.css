@@ -17,8 +17,9 @@
 
 
 body {
-    background-color: rgb(108, 129, 146);
+    background-color: rgb(0, 0, 0);
     margin: auto;
+    
 }
 
 main.titulo-principal {
@@ -72,15 +73,22 @@ main a:hover {
     border-radius: 3px;
 }
 
+main .album-celebridade {
+    min-width: 320px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
 
 h1 {
     color: rgb(206, 199, 199);
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Kaushan Script', 'cursive';
     font-weight: normal;
 }
 
 
 ul {
+    font-family: 'Bebas Neue';
     background-color: black;
     list-style-position: inside;
     list-style-type: '\2714\00A0';
@@ -95,13 +103,6 @@ ul {
     font-size: 0.8em;
     padding: 10px 0px 10px 0px;
     border-radius: 0px 0px 10px 10px;
-}
-
-
-
-main .album-celebridade {
-    min-width: 320px;
-    
 }
 
 
