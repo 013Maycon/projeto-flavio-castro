@@ -1,19 +1,17 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 
 @font-face {
-    font-family: 'Black Street';
-    src: url('fontes/Black Street.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Black Street";
+  src: url("fontes/Black Street.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-
-
 
 /*
     Tipos de format ()
@@ -26,60 +24,60 @@
 */
 
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 :root {
-    --cor0: #033D5C;
-    --cor1: #1E465C;
-    --cor2: #056FA8;
-    --cor3: #0791DB;
-    --cor4: #85cef5b9;
+  --cor0: #033d5c;
+  --cor1: #1e465c;
+  --cor2: #056fa8;
+  --cor3: #0791db;
+  --cor4: #85cef5b9;
 
-    --fonte-padrão: 'Roboto Condensed', sans-serif;
-    --fonte-destaque: 'Kaushan Script', 'cursive';
-    --fonte-título-principal: 'Black Street', 'cursive';
+  --fonte-padrão: "Roboto Condensed", sans-serif;
+  --fonte-destaque: "Kaushan Script", "cursive";
+  --fonte-título-principal: "Black Street", "cursive";
 }
 
 body {
-    font-family: var(--fonte-padrão);
-    background-color: var(--cor4);
+  font-family: var(--fonte-padrão);
+  background-color: var(--cor4);
 }
 
 header {
-    background-image: linear-gradient(to top, var(--cor0), var(--cor3));
-    text-align: center;
-    min-height: 150px;
-    padding-top: 40px;
+  background-image: linear-gradient(to top, var(--cor0), var(--cor3));
+  text-align: center;
+  min-height: 150px;
+  padding-top: 40px;
 }
 
 header > h1 {
-    font-family: var(--fonte-título-principal), 'cursive';
-    font-size: 4em;
-    color: black;
-    font-weight: bolder;
-    margin-bottom: 20px;
-    padding: 10px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.226);
+  font-family: var(--fonte-título-principal), "cursive";
+  font-size: 4em;
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.226);
 }
 
 header > p {
-    font-family: var(--fonte-padrão);
-    font-size: 1.2em;
-    font-weight: 700;
-    max-width: 600px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 50px;
-    margin: auto;
-    text-shadow: rgba(0, 0, 0, 0.226);
+  font-family: var(--fonte-padrão);
+  font-size: 1.2em;
+  font-weight: 700;
+  max-width: 600px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 50px;
+  margin: auto;
+  text-shadow: rgba(0, 0, 0, 0.226);
 }
 
-nav{
-    text-align: left;
-    padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.226);
+nav {
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.226);
 }
 
 nav > a {
@@ -98,132 +96,126 @@ nav > a:hover {
 }
 
 main {
-    padding: 10px;
-    background-color: rgba(208, 221, 230, 0.993);
-    margin: auto;
-    min-width: 300px;
-    max-width: 1000px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
-    margin-bottom: 30px;
-    border-radius: 0px 0px 10px 10px;
+  padding: 10px;
+  background-color: rgba(208, 221, 230, 0.993);
+  margin: auto;
+  min-width: 300px;
+  max-width: 1000px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+  margin-bottom: 30px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 main h1 {
-    font-family: 'Kaushan Script', 'cursive';
-    text-align: center;
-    background-color: var(--cor2);
-    border-radius: 5px;
+  font-family: "Kaushan Script", "cursive";
+  text-align: center;
+  background-color: var(--cor2);
+  border-radius: 5px;
 }
 
 main h2 {
-    font-family: 'Kaushan Script', 'cursive';
-    text-align: center;
-    border-radius: 5px;
-    background-color: var(--cor2);
-    font-size: 25px;
+  font-family: "Kaushan Script", "cursive";
+  text-align: center;
+  border-radius: 5px;
+  background-color: var(--cor2);
+  font-size: 25px;
 }
 
 main img {
-    width: 100%;
-    
+  width: 100%;
 }
 
 main img.imagem-tanque {
-    width: 90%;
-    display: block;
-    margin: auto;
-    padding-bottom: 15px;
+  width: 90%;
+  display: block;
+  margin: auto;
+  padding-bottom: 15px;
 }
 
 main img.imagem-nacional {
-    width: 90%;
-    display: block;
-    margin: auto;
-    
+  width: 90%;
+  display: block;
+  margin: auto;
 }
 
 main img.imagem-celebridade {
-    width: 90%;
-    display: block;
-    margin: auto;
+  width: 90%;
+  display: block;
+  margin: auto;
 }
 
 main img.imagem-lobo {
-    width: 90%;
-    display: block;
-    margin: auto;
-    
+  width: 90%;
+  display: block;
+  margin: auto;
 }
 
 div.video {
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 57%;
-    position: relative;
-    
+  margin: 0px -20px 30px -20px;
+  padding: 20px;
+  padding-bottom: 57%;
+  position: relative;
 }
 
 div.video > iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-    border-radius: 8px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border-radius: 8px;
 }
 
-
 main p {
-    font-family: 'Roboto Condensed', sans-serif;
-    padding: 10px 30px 20px 30px;
-    margin: 15px 0px;
-    text-align: justify;
-    font-size: larger;
-    text-indent: 25px;
-    line-height: 1.7em;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 30px 20px 30px;
+  margin: 15px 0px;
+  text-align: justify;
+  font-size: larger;
+  text-indent: 25px;
+  line-height: 1.7em;
 }
 
 main strong {
-    color: var(--cor2);
-    font-weight: bold;
-    border-radius: 3px;
+  color: var(--cor2);
+  font-weight: bold;
+  border-radius: 3px;
 }
 
 main a {
-    padding: 2px 6px;
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--cor0);
-    
+  padding: 2px 6px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--cor0);
 }
 
 main a:hover {
-    background-color: var(--cor4);
-    border-radius: 5px;
-    text-decoration: underline;
+  background-color: var(--cor4);
+  border-radius: 5px;
+  text-decoration: underline;
 }
 
 aside {
-    text-align: center;
+  text-align: center;
 }
 
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
 
 footer {
-    background-color: var(--cor0);
-    color: white;
-    text-align: center;
-    padding: 5px;
+  background-color: var(--cor0);
+  color: white;
+  text-align: center;
+  padding: 5px;
 }
 
 footer > p > a {
-    color: white;
-    font-weight: bolder;
+  color: white;
+  font-weight: bolder;
 }
 
 footer a:hover {
-    text-decoration: underline;
-    color: var(--cor3);
+  text-decoration: underline;
+  color: var(--cor3);
 }
