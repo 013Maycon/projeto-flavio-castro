@@ -100,7 +100,7 @@ h1 {
 }
 
 ul {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', 'cursive';
     background-color: black;
     list-style-position: inside;
     list-style-type: '\2714\00A0';
